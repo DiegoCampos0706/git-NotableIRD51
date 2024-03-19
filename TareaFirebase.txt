@@ -1,0 +1,31 @@
+# L15 INVESTIGACION FIREBASE
+Es una base de datos NoSQL alojada en la nube que te permite almacenar y sincronizar datos entre tus usuarios en tiempo real. NUEVO: Cloud Firestore te permite almacenar, sincronizar y buscar datos de app a escala global.
+
+El concepto de Firebase, comentaremos un poco de sus inicios ya que es importante que conozcamos su “nacimiento”. Esta herramienta fue fundada en el año 2011 por Firebase, Inc., como un SDK de chat para móviles que llevaba por nombre “Envolve”, el cual no tuvo el éxito esperado.
+
+Firebase en una plataforma unificada y con una serie de productos para cubrir el objetivo principal de apoyar y facilitar sus labores a los desarrolladores. En ese lanzamiento Firebase incluyó:
+  Google Cloud Platform
+  Admob
+  Google Ads
+Y Firebase Cloud Messaging pasó a reemplazar a Google Cloud Messaging, permitiendo enviar notificaciones push a iOS, Android y Web.
+
+Firebase básicamente es una plataforma móvil diseñada y creada por Google, teniendo como principal función desarrollar y facilitar la creación de aplicaciones para dispositivos móviles que cuenten con una alta calidad a pesar de su rápida elaboración
+
+Para qué sirve Firebase
+Como lo hemos mencionado anteriormente, la función principal de Firebase es hacer que el ciclo de desarrollo, tanto de aplicaciones móviles como de web, se lleve a cabo de manera armónica y sencilla, lo que conlleva a que, tanto el trabajo como el tiempo empleado sean rápidos, sin dejar de un lado la calidad que debe caracterizar a todo proyecto.
+
+Características de Firebase
+-A continuación detallaremos brevemente algunas de las características de Firebase:
+
+-Es multiplataforma: Soportada por Android, iOS y web.
+
+-Monetización: A través de Firebase podemos ganar dinero esto a través de AdMob con anuncios y publicidad.
+
+-Gran poder de crecimiento: Gracias a la fácil gestión de los usuarios de las aplicaciones es posible obtener un alto crecimiento según los objetivos planteados. Esta herramienta cuenta con el valor añadido de que podemos llegar a nuevos usuarios con el envío de notificaciones e invitaciones.
+
+-Es Ágil: Ofrece el desarrollo y gestión de apps multiplataforma gracias a sus APIs integradas a SDK tanto para JavaScript como para iOS y Android, permitiendo gestionar diferentes aplicaciones sin la necesidad de la salir de la plataforma.
+
+Ventajas de Firebase
+-De forma global podemos tomar como una gran ventaja a la Cloud Storage, la cual nos permite contar con una base de datos para que el usuario pueda contar con un espacio de almacenamiento y compartir imágenes y ficheros; sin recurrir a bases de datos propias. Así mismo, utiliza Cloud Functions, permitiéndonos ahorrar infraestructura de backend.
+
+-En líneas generales, sus funcionalidades se complementan entre sí a pesar de ser variadas. Firebase facilita los eventos en cuanto a el envío de notificaciones que gracias a su simpleza son de fácil uso y nos permiten centrar la atención de los usuarios. Cuenta con SSL (Secure Sockets Layer).
