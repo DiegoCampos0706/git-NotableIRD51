@@ -1,0 +1,39 @@
+# L8 Instalacion Django
+'''
+Tenemos que instalar PYTHON la version 3.11 desde la pagina principal 
+
+Una vez instalado tendras que abrir el cmd
+En el cmd daremos python --version
+Posteriormente  tenemos que crear una carpeta llamada Programacion-de-Redes en Escritorio
+Abrimos la carpeta desde el cmd con el comando
+  cd C:\Users\Equipo\Desktop\Programacion-de-Redes
+Una vez abierta la carpeta daremos 
+  dir
+  #esto sirve para poder ver lo que hay dentro de nuestra carpeta el cual encontraremos dos que son .env y mysite
+Abrimos 
+  cd .env
+  cd Scripts
+  activate
+Instalamos de Django un entorno visual
+  python -m pip install Django 
+Realizamos la creacion de proyecto web Django
+  django-admin startproject mysite
+Salimos de esas carpetas y abrimos 
+  cd mysite
+al dar dir veremos que estan instaladas manage.py y mysite
+Ejecutamos el comando
+  python
+  >>>import django
+  >>>print(django.get_version())
+  4.2.5
+  >>>exit()
+Realizamos la activacion de entorno virtual existente:
+    dir
+    cd .env
+    cd Scripts
+    activate
+    cd ..
+    cd ..
+    cd mysite
+    python manage.py runserver
+Y comprobamos que corra nuestro django con ese codigo.
