@@ -1,0 +1,30 @@
+# L10 Crud Prueba de Modelo (migraciones, PosgreSQL)
+
+
+#Se realiza la siguente configuración el archivo mysite\mysite\settings.py
+#1.- Se comentará la configuración por defecto de Django con Sqlite3
+
+#```python
+"""
+DATABASES = {
+'default': {
+'EGINE' : 'django.db.backends.sqllite3',
+'NAME' : BASE_DIR / 'db.sqlite3',
+}
+}
+"""
+#```
+
+#**2.- Crear base de datos "sap_db", apoyarse en el vídeo para crear base de datos**
+
+#>3.- Se añadirá la nueva configuración, para el uso de PostgreSQL
+![](@attachment/Clipboard_2023-12-04-09-29-46.png)
+
+Instalacion psycopg2
+![](@attachment/Clipboard_2023-12-04-09-30-27.png)
+
+Revisar tablas creadas en la base de datos en PGAdmin
+
+# Crear nueva aplicación encargada de gestionar personas (Sistema de Administración de
+Personas) 
+![](@attachment/Clipboard_2023-12-04-09-28-14.png)
