@@ -1,0 +1,30 @@
+L5 III Tipos de valores como Parámetros
+
+def desplegar(nombres):
+for nombre in nombres:
+print(nombre)
+
+nombres = ['Juan','Carlos','Guillermo']
+
+desplegar(nombres)
+
+Un string es una lista de caracterés
+desplegar('Carlos')
+
+Error al enviar un argumento no iterable
+desplegar(10)
+desplegar(10,20)
+desplegar((10,20))
+
+Validar tipos de datos
+def desplegar2(valores):
+if type(valores) is tuple or type(valores) is list or type(valores) is str:
+for valor in valores:
+print(valor)
+else:
+print(valores)
+
+desplegar2(['Juan','Karla','Ivonne'])
+desplegar2(('Diana','Liliana','Zafiro'))
+desplegar2('Cadena de texto')
+desplegar2(10)
