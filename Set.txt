@@ -1,0 +1,46 @@
+# L4 III SET
+"""
+    Set
+Los set en Python son un tipo que permite almacenar varios elementos y acceder a ellos de una forma muy similar a las listas pero con ciertas diferencias:
+Los elementos de un set son único, lo que significa que no puede haber elementos duplicados.
+Los set son desordenados, lo que significa que no mantienen el orden de cuando son declarados.
+Sus elementos deben ser inmutables.
+
+"""
+# Definir un set (sin orden e índices)
+planetas = {'Marte','Júpiter','Venus'}
+
+print(planetas)
+
+# Longitud del set
+print(len(planetas))
+
+# Validar exitencia en un elemento
+# Esto mismo se aplica en tuplas y listas
+print('Marte' in planetas)
+
+# Agrear elementos a set
+planetas.add('Tierra')
+
+print(planetas)
+
+planetas.add('Tierra')
+
+print(planetas)
+
+# Eliminar elementos
+planetas.remove('Tierra')
+
+print(planetas)
+
+# Si se intenta eliminar un valor que no existe
+# mandará un error keyError
+
+# Está función no manda error si no existe el elemento
+planetas.discard('Tierras')
+
+# Limpiar set
+planetas.clear()
+
+# Eliminar set
+del planetas
