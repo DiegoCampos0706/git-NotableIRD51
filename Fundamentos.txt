@@ -1,0 +1,23 @@
+# L9 Fundamentos Django 
+
+def sumar (request, param1, param2):
+    resultado = param1 + param2
+    cadena = f"El resultado de la suma es: {resultado} "
+    return HttpResponse(cadena)
+
+def restar (request, param1, param2):
+    resultado = param1 - param2
+    cadena = f"El resultado de la resta es: {resultado} "
+    return HttpResponse(cadena)
+
+def multiplicar (request, param1, param2):
+    resultado = param1 * param2
+    cadena = f"El resultado de la multiplicacion es: {resultado} "
+    return HttpResponse(cadena)
+
+def dividir (request, param1, param2):
+    resultado = param1 / param2
+    cadena = f"El resultado de la division es: {resultado} "
+    return HttpResponse(cadena)
+
+Este código define cuatro funciones (sumar, restar, multiplicar y dividir) en un marco web de Python, probablemente Django o Flask, basado en el uso de HttpResponse. Cada función realiza una operación matemática específica y devuelve una respuesta HTTP que contiene el resultado en una cadena formateada. 
