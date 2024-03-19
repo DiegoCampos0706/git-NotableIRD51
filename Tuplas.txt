@@ -1,0 +1,46 @@
+# L4 II TUPLAS
+La tupla es inmutable y guarda el orden de los datos
+"""
+A primera vista, las Python tuples se parecen mucho a las conocidas listas de Python. Ambas son listas que contienen y almacenan diversos tipos de contenidos para luego poder presentarlos con claridad. Sin embargo, hay una diferencia: el contenido de una tupla de Python es inmutable. Esto quiere decir que una vez se ha cargado de contenido, permanece inalterable y no puede ser eliminada. Las Python tuples resultan especialmente útiles si el contenido consta de variables que debes conservar en su forma y composición original indispensablemente. 
+Usando Python tuples puedes asegurarte de que el contenido está en su estado original.
+"""
+
+frutas = ("Naranja","Platano","Guayaba")
+
+# Longitud de tupla
+print(len(frutas))
+
+# Acceder aún elemento
+print(frutas[0])
+
+# Navegación inversa
+print(frutas[-1])
+
+# Acceder aún rango de valores
+print(frutas[0:4])
+
+"""
+    Declaración de una tupla de un valor
+        frutas = ('Naranja',)
+    # Si no se agrega una coma al final,
+    # se entiende como una cadena
+"""
+
+# Recorrer un elemento de la tupla
+valor = 0
+
+while valor < len(frutas):
+    print(frutas[valor],end=", ")
+    valor += 1
+
+# Cambiar el dato de una tupla
+frutasLista = list(frutas)
+
+frutasLista.append('Pera')
+
+frutas = tuple(frutasLista)
+
+print('\n',frutas)
+
+# Eliminar tupla por completo
+del frutas
